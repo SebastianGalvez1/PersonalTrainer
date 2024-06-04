@@ -1,7 +1,7 @@
 
 var clientes = []
 clientes.push(new PersonalTrainer("11.111.111-1","Cristiano","Perez","98767654","Cperez@GMAIL.COM", 
-                                            "RANCAGUA", "MASCULINO", "24" , "123456", "BLACK" , "AM" , "PLAN FITNESS"))
+                                            "RANCAGUA", "MASCULINO", "24" , "123456", "BLACK" , "AM" , "PLAN FITNES"))
 clientes.push(new PersonalTrainer("22.222.222-2","Tony","Cruz","98888122","TonyCruz15@GMAIL.COM", 
                                             "SANTIAGO", "MASCULINO", "37" , "123456", "GOLD" , "PM" , "PLAN VOLUMEN"))
 clientes.push(new PersonalTrainer("33.333.333-3","Luka","Maywheater","92388122","Lukita15@GMAIL.COM", 
@@ -77,7 +77,7 @@ function consultar(){
                 }
                 document.getElementById("txteda").value = e.edad;
                 document.getElementById("txtpas").value = e.password;
-                document.getElementById("cbonac").value = e.plan;
+                document.getElementById("cbopla").value = e.plan;
                 if(e.turno === "AM"){
                     document.getElementById("opam").checked = true;
                 }else{
